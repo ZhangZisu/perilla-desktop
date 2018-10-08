@@ -1,6 +1,6 @@
 # perilla-desktop
-
-> Perilla Desktop
+[![AppVeyor](https://img.shields.io/appveyor/ci/ZhangZisu/perilla-desktop.svg?style=flat-square)](https://github.com/ZhangZisu/perilla-desktop)
+[![Travis (.org)](https://img.shields.io/travis/ZhangZisu/perilla-desktop.svg?style=flat-square)](https://github.com/ZhangZisu/perilla-desktop)
 
 #### Build Setup
 
@@ -17,9 +17,4 @@ npm run build
 
 # lint all JS/Vue component files in `src/`
 npm run lint
-
 ```
-
----
-
-This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[9add6ff](https://github.com/SimulatedGREG/electron-vue/tree/9add6ff4d47eaf8fb9f04efd0aca7be4dc6fb69d) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
