@@ -1,18 +1,18 @@
 import Vue from 'vue'
-import axios from 'axios'
-
+import './plugins/vuetify'
+import './plugins/github'
 import App from './App'
 import router from './router'
 import store from './store'
+import i18n from './i18n'
+import './assets/lightui.styl'
 
-if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
-Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
+Vue.config.silent = true
 
-/* eslint-disable no-new */
 new Vue({
-  components: { App },
   router,
   store,
-  template: '<App/>'
+  i18n,
+  render: h => h(App)
 }).$mount('#app')
