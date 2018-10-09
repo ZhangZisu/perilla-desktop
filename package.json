@@ -2,6 +2,8 @@
   "name": "perilla-desktop",
   "version": "0.1.5",
   "author": "ZhangZisu <admin@zhangzisu.cn>",
+  "homepage": "https://perilla.js.org",
+  "repository": "https://github.com/ZhangZisu/perilla-desktop",
   "description": "Perilla Desktop",
   "license": "Apache-2.0",
   "main": "./dist/electron/main.js",
