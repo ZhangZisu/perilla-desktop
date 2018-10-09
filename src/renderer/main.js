@@ -6,9 +6,9 @@ import router from './router'
 import store from './store'
 import i18n from './i18n'
 import './assets/lightui.styl'
-import axios from "axios";
+import axios from 'axios'
 
-axios.defaults.baseURL = "https://perilla.zhangzisu.cn/";
+axios.defaults.baseURL = 'https://perilla.zhangzisu.cn/'
 Vue.config.productionTip = false
 Vue.config.silent = true
 

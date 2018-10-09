@@ -106,7 +106,7 @@
     <v-footer app fixed dark color="primary">
       <span class="pa-2">&copy;ZhangZisu 2018</span>
       <v-spacer/>
-      <span class="pa-2">version 0.0.4</span>
+      <span class="pa-2">PerillaDesktop {{ versions.perillaDesktop }}, Node {{ versions.node }}, Electron {{ versions.electron }}</span>
     </v-footer>
     <v-snackbar v-model="snackbar" color="error">
       {{ snackbarText }}
@@ -168,7 +168,12 @@ export default {
           name: 'ja',
           display_name: '日本語'
         }
-      ]
+      ],
+      versions: {
+        electron: process.versions.electron,
+        node: process.versions.node,
+        perillaDesktop: '0.1.5'
+      }
     }
   },
   computed: {
