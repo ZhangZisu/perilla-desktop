@@ -1,6 +1,6 @@
 # perilla-desktop
 [![AppVeyor](https://img.shields.io/appveyor/ci/ZhangZisu/perilla-desktop.svg?style=flat-square)](https://github.com/ZhangZisu/perilla-desktop)
-[![Travis (.org)](https://img.shields.io/travis/ZhangZisu/perilla-desktop.svg?style=flat-square)](https://github.com/ZhangZisu/perilla-desktop)
+[![Travis (.org)](https://img.shields.io/travis/ZhangZisu/perilla-desktop.svg?style=flat-square)](https://github.com/ZhangZisu/perilla-desktop) [![Greenkeeper badge](https://badges.greenkeeper.io/ZhangZisu/perilla-desktop.svg)](https://greenkeeper.io/)
 
 #### Build Setup
 
